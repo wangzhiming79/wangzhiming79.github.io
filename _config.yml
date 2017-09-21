@@ -1,0 +1,31 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Bill's Blog
+paginate:       5
+baseurl:        ""
+url:            "https://wangzhiming79.github.io/wangzhiming79"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Bill Wang
+  url:          http://chester.how
+  email:        w.zhiming@outlook.com
+
+# Custom vars
+version:        3.4.1
+github:
+  repo:         https://github.com/chesterhow/tale
+
+# Gems
+plugins:
+  - jekyll-paginate
